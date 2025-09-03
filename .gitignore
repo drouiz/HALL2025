@@ -1,0 +1,23 @@
+# Archivos de entorno (no versionar secretos)
+.env
+.env.local
+.env.*.local
+
+# Mantener el ejemplo como referencia
+!.env_example
+
+# Volúmenes de Docker (si decides montarlos como carpetas locales)
+postgres_data/
+n8n_data/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editor/IDE
+.vscode/
+.idea/
+*.swp
